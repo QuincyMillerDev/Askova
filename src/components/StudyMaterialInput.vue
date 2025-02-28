@@ -16,7 +16,7 @@
         <textarea
             id="notes"
             v-model="notes"
-            class="w-full h-40 p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500"
+            class="w-full h-40 p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 text-gray-900 bg-white"
             placeholder="Paste your study notes here..."
             @input="$emit('notes-updated', notes)"
         ></textarea>
